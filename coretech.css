@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --main-color: white;
+    --black-color: #121212;
+    --border: 1px solid rgba(255, 255, 255, 0.4)
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+
+}
+
+.esasbosluq {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.76);
+    -webkit-box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.76);
+}
+
+
+html {
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 8px;
+    background-color: white;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #00d6c4;
+
+}
+
+body {
+    background-color: var(--main-color);
+    margin-bottom: 2rem;
+}
+
+
+/*! header start */
+
+.header .logo img {
+    height: 4rem;
+    margin-top: 5px;
+}
+
+.header {
+    background-color: #00d6c4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+    margin: 0rem;
+    border-radius: 0rem;
+    box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.76);
+    -webkit-box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.76);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    margin: 0 3rem;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+
+}
+
+.navbar .active,
+.navbar a:hover {
+    border-color: white;
+    padding-bottom: 3px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+.header .buttons button {
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+    font-weight: normal;
+    transition: all 0.3s ease;
+}
+
+.header .buttons button:hover {
+    transform: scale(1.6);
+}
+
+
+.home {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.home1 {
+    margin-top: 3rem;
+
+}
+
+.news {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.soltext {
+    width: 60%;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.sagtext {
+    width: 40%;
+}
+
+.soltext2 {
+    width: 45%;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+
+
+
+
+/* HOME */
+
+
+.imagesag img {
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 300px;
+    object-fit: cover;
+    transition: 0.3s ease;
+
+}
+
+.imagesag img:hover {
+    transform: scale(1.1);
+}
+
+.container2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagesol {
+    width: 500px;
+    height: 275px;
+    border-radius: 30px;
+    box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.76);
+    -webkit-box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.76);
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+.imagesol img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transition: 0.3s ease;
+}
+
+.imagesol img:hover {
+    transform: scale(1.1);
+}
+
+.imagesag2 {
+    width: 450px;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-right: 40px;
+}
+
+.imagesag2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+.imagesag2 img:hover {
+    transform: scale(1.1);
+}
+
+.sontextcenter {
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+.sontextlist {
+    margin-left: 57px;
+    margin-top: 30px;
+}
