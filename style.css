@@ -28,16 +28,30 @@ nav :hover, nav :hover i{
     background-color: white;
     border-radius: 0px 15px;
 }
+nav :hover #altox{
+    transform: rotate(180deg);
+}
 nav a{
     padding: 10px;
     text-decoration: none;
     color: white;
 }
-.active{
+.active, #icon{
     color: #cf1d39 !important;
     background-color: white;
     border-radius: 0px 15px;
 }
+nav :hover span, nav :hover #canliikon{
+    color: #f5d2d7 !important;
+    background: none !important;
+}
+nav:hover .boz{
+    background: none !important;
+}
+.boz{
+    margin-left: 300px;
+}
+
 body{
     margin: 0;
 }
